@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+.env
+*.pyc
+assets/
+# (Assets moved to Electron project, though we can keep local copies if needed)
