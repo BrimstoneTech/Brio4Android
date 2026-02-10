@@ -45,7 +45,7 @@ class BrioView(context: Context) : View(context) {
         // In real app, resource ID should be resolved dynamically
         // Note: resources.getIdentifier is slow, better to use R.drawable directly if possible or map it
         try {
-            val resId = resources.getIdentifier("youth_removebg_preview", "drawable", context.packageName)
+            val resId = resources.getIdentifier("brio_young_adult", "drawable", context.packageName)
             if (resId != 0) {
                 brioBitmap = BitmapFactory.decodeResource(resources, resId)
             }
